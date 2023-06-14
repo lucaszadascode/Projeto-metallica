@@ -1,0 +1,25 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #000000, #4d4d4d, #383838, #000000);
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+.rei{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.soldado{
+    height: 300px;
+    width: 225px;
+}
+footer > p{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
